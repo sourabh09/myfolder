@@ -1,0 +1,214 @@
+
+body{
+	background-color: #000;
+  font-family: 'Lexend', sans-serif;
+  height: 100%;
+  font-size: 24px;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://source.unsplash.com/1920x1080/?abstract background");
+  background-size: auto;
+  background-attachment: fixed;
+}
+.social_media>a>img{
+  max-width: 34px;
+  margin: 8px;
+}
+
+.blank_div{
+  height: 80px;
+}
+
+.uper_div>img{
+  max-width: 120px;
+  border-radius: 50%;
+  margin: 18px;
+  margin-top: -50px;
+}
+.uper_div>h3{
+  color: #FFF;
+  margin: 10px;
+}
+.uper_div>p{
+   padding: 10px;
+  font-size: 18px;
+  color: #FFF;
+  text-align: left;
+
+}
+.uper_div{
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #212121;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 42px;
+}
+
+.item>img{
+  max-width: 80px;
+}
+
+header{
+  color: #FFF;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 600;
+  padding: 10px;
+  font-size: 22px;
+  text-align: center;
+  background-color: #212121;
+}
+
+.item>span{
+   padding: 15px;
+}
+.item{
+  color: #FFF;
+  font-family: 'Lexend', sans-serif;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #212121;
+  border-radius: 8px;
+  min-height: 80px;
+
+}
+
+.container>a{
+  text-decoration: none;
+
+}
+.mdl-button{
+  background-color: #EB1537 !important;
+  color: #fff!important; 
+}
+
+.container{
+  text-align: center;
+  max-width: 600px;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: normal;
+}
+hr.new2 {
+  border-top: 1px dashed black;
+  margin: 12px;
+}
+#advice{
+  line-height: 1.5;
+  margin: 30px;
+}
+i>span{
+   font-family: 'Special Elite', cursive;
+}
+.social>a{
+  color: #000;
+  cursor: pointer;
+}
+
+.mdl-mini-footer{
+  position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #212121;
+    padding: 13px 14px;
+}
+
+header>img{
+  max-width: 34px;
+  border-radius: 4px;
+  margin-right: 6px;
+
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  body{
+  
+  background-repeat: round;
+
+}
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    body{
+  
+  background-repeat: round;
+
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+     body{
+  
+  background-size: cover;
+
+}
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+   body{
+  
+  background-repeat: round;
+
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+   body{
+  
+  background-size: cover;
+
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+     body{
+  
+  background-size: cover;
+
+}
+
+  
+}
